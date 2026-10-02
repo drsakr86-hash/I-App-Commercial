@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.smoke/
+smoke-log.txt
+*.bak
+*.bak2
+
+# Internal audit files
+/docs/logs/
+/docs/*.sql
+
+# Internal documentation
+/docs/
